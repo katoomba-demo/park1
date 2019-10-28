@@ -30,7 +30,7 @@ class Park1Controller {
 
 	@RequestMapping(method = GET, path = "/")
 	public String root() {
-		return "Spring Boot REST service running. Sydney Afternoon "
+		return "Spring Boot REST service running.  Sydney Afternoon "
 				+ getClass().getName();
 	}
 
